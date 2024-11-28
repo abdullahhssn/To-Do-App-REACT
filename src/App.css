@@ -1,0 +1,125 @@
+.todoBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eeb3b5 ;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.todo {
+  border: solid 5px;
+  border-color: #e7787c;
+  border-radius: 10px;
+  width: 300px;
+  height: 500px;
+  padding: 15px;
+  overflow-y: scroll;
+  background-color: #b3dbfc;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+#addNew {
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #f09999;
+  padding: 8px;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#addNew:hover{
+  background-color: #ea8383;
+}
+
+.plus-icon {
+  background-color: #9cc4eb;
+  padding: 3px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+#tasks div {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px;
+  border-color: #e7787c;
+  border-radius: 5px;
+  background-color: #f09999;
+  margin-top: 15px;
+  padding-left: 5px;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 0px 5px 0px;
+}
+
+.taskForm {
+  background-color: #f09999;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.taskForm input {
+  background-color: #f09999;
+  font-size: 14px;
+  border: none;
+}
+
+.taskForm input:focus {
+  background-color: #f09999;
+  box-shadow: none !important;
+}
+
+.editTaskForm {
+  background-color: #f09999;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: 15px;
+}
+
+.editTaskForm input {
+  background-color: #f09999;
+  font-size: 14px;
+  border: none;
+}
+
+.editTaskForm input:focus {
+  background-color: #f09999;
+  box-shadow: none !important;
+}
+
+.add-btn {
+  background-color: #e7787c !important;
+  border-radius: 5px !important;
+  border: none !important;
+  cursor: pointer;
+  font-size: 14px !important;
+}
+
+.desc-btn {
+  background-color: #f09999 !important;
+  border-radius: 5px !important;
+  border: none !important;
+  cursor:text;
+  font-size: 14px !important;
+  text-align: left;
+  opacity: 80%;
+}
+
+.edit-icon, 
+.delete-icon{
+cursor: pointer;
+}
+
+.descLabel{
+  font-weight: bold;
+}
